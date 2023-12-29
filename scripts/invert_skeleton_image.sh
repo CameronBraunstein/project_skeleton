@@ -1,0 +1,1 @@
+python src/main.py --actions invert_skeleton_image  

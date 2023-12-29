@@ -1,0 +1,1 @@
+python src/main.py --actions visualize_skeleton --skeleton_visualization_type output_skeleton
