@@ -1,6 +1,6 @@
-Welcome to the project skeleton! This project is an implementation of the codebase design that I introduced in my presentation, [Coding for Research](https://docs.google.com/presentation/d/19yjcO6wJD2namfWpumbC7slPaODvTbNet_SnvM1RRXo/edit?usp=sharing).
+Welcome to the project skeleton! This project is an implementation of the codebase design that I introduced in my presentation, [Coding for Research](https://docs.google.com/presentation/d/19yjcO6wJD2namfWpumbC7slPaODvTbNet_SnvM1RRXo/edit?usp=sharing). The code can take an image, input_data/skeleton.jpg, view it, invert its colors, save it, and view the results. 
 
-I have added a few comments starting with #NOTE_\<X\>. These are areas where I want to elaborate on the design choice. Additionally, there is a #TODO comment, where you can practice extending
+I have added a few comments starting with #NOTE_\<x\>. These are areas where I want to elaborate on the design choice. Additionally, there is a #TODO comment, where you can practice extending
 this codebase.
 
 Before running the project, first create the conda environment with the following command:
