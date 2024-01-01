@@ -20,15 +20,24 @@ class SkeletonVisualizer:
         self.dataloader = get_dataloader(args)
 
     def visualize_skeleton(self):
+        skeleton_image_title = self._get_skeleton_image_title()
         skeleton_image = self._get_skeleton_image()
-        _display_image(skeleton_image)
+        _display_image(skeleton_image_title, skeleton_image)
 
 class InputSkeletonVisualizer(SkeletonVisualizer):
+    def _get_skeleton_image_title(self):
+        return 'Skeleton Before Inversion'
+    
     def _get_skeleton_image(self):
         skeleton_image = self.dataloader.load_input_skeleton()
         return skeleton_image
     
+    
 class OutputSkeletonVisualizer(SkeletonVisualizer):
+    def _get_skeleton_image_title(self):
+        return 'Skeleton After Inversion'
+
     def _get_skeleton_image(self):
         skeleton_image = self.dataloader.load_output_skeleton()
         return skeleton_image
+    
