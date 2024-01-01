@@ -15,3 +15,6 @@ From here, you can run your scripts in order:
 `./scripts/invert_skeleton_image.sh`
 
 `./scripts/visualize_output.sh`
+
+
+##TODO: Track output_data dir.
