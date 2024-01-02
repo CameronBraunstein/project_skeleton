@@ -1,1 +1,3 @@
 *.pyc
+output_data/*
+!output_data/.gitkeep
